@@ -19,6 +19,7 @@ img {
   padding: 0 80px;
 }
 
+/* header */
 .header-div {
   display: flex;
   align-items: center;
@@ -60,7 +61,6 @@ img {
   background: url("/images/Bitmap.jpg"), lightgray 0px 0px / 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 600px; */
   border-radius: 15px;
 }
 
@@ -104,7 +104,9 @@ img {
 .header-btn-link:hover {
   background: #66d2cf;
 }
+/* heeader end */
 
+/* section2 */
 .section2 {
   padding-top: 136px;
   padding-bottom: 200px;
@@ -141,7 +143,9 @@ img {
   line-height: 26px;
   margin-top: 24px;
 }
+/* section2 end*/
 
+/* section3 */
 .info-text-main {
   display: flex;
   flex-direction: column;
@@ -183,7 +187,6 @@ img {
 }
 
 .info-li {
-  /* transform: translateY(105px); */
   text-align: center;
   padding-top: 60px;
   border-radius: 8px;
@@ -218,6 +221,9 @@ img {
   font-weight: 400;
   line-height: 26px;
 }
+/* section3 end*/
+
+/* section4 */
 .section4 {
   padding-top: 351px;
 }
@@ -273,7 +279,6 @@ img {
 
 .instr-info {
   list-style-type: none;
-  /* max-width: 285px; */
   margin-right: 95px;
 }
 
@@ -311,7 +316,9 @@ img {
 .instr-link:hover {
   background: #66d2cf;
 }
+/* section4 end*/
 
+/* footer */
 .footer-main {
   padding: 47px 85px;
   background: #2c343e;
@@ -362,3 +369,4 @@ img {
 .footer-image:hover {
   fill: #fdd6ba;
 }
+/* footer end */
