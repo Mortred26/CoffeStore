@@ -36,7 +36,10 @@ img {
 .nav-ul {
   display: flex;
 }
-
+.nav-li a {
+  text-decoration: none;
+  color: #83888f;
+}
 .nav-li {
   list-style-type: none;
   color: #83888f;
@@ -53,7 +56,7 @@ img {
   margin-right: 33px;
 }
 
-.nav-li:hover {
+.nav-li a:hover {
   color: #333d4b;
 }
 
